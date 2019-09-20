@@ -4,14 +4,16 @@ import java.io.File;
 
 import org.junit.Test;
 
+import com.wangchen.common.utils.FileUtil;
+
 public class FileUtilTest {
 
 	@Test
 	public void testGetExtendName() {
-		
-		  String name = FileUtil.getExtendName("aaa.jpg");
-		  System.out.println(name);
-		
+
+		String name = FileUtil.getExtendName("aaa.jpg");
+		System.out.println(name);
+
 	}
 
 	@Test
